@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-    max-width: 640px;
+    width: 640px;
     color: #fff;
 }
 
@@ -61,4 +61,13 @@ h2 {
     color: #000;
     border: 1px solid #fff;
     cursor: pointer;
+}
+
+/* Break Points*/
+
+@media screen and (max-width: 680px) {
+    #container {
+        width: 80%;
+    }
+
 }
