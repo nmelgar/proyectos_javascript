@@ -14,6 +14,8 @@ function changeColor() {
   let color = generateColor();
   let container = document.getElementById("container");
   container.style.backgroundColor = `rgb(${color})`;
+  let colorCodeText = document.getElementById("color-code");
+  colorCodeText.textContent = color;
 }
 
 document
