@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: #000;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+}
+
+/* GENERAL CONTAINER */
+#container {
+    background-color: #fff;
+    width: 768px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+/* TOP SECTION */
+#top-section {
+    background-color: #005792;
+    color: #fff;
+    display: grid;
+    justify-items: center;
+    height: 20vh;
+}
+
+#top-section h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+#top-section p {
+    font-size: 12px;
+    text-align: end;
+    align-self: center;
+}
+
+#top-section h1,
+p {
+    width: 80%;
+    margin: 0;
+}
+
+/* BUTTON DETAILS */
+#button-container {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+#add-button {
+    color: #fff;
+    background-color: #005792;
+    border-radius: 50%;
+    border: 1px solid #005792;
+    font-size: 30px;
+    font-weight: 400;
+    width: 50px;
+    height: 50px;
+    position: sticky;
+}
+
+#add-button:hover {
+    opacity: 80%;
+}
+
+#add-button:active {
+    opacity: 90%;
+}
+
+/* TODOS DESIGN */
+#todos-container {
+    color: #005792;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 80px;
+}
