@@ -76,6 +76,29 @@ p {
 #todos-container {
     color: #005792;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: bolder;
     margin: 80px;
+}
+
+#todo-individual {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#todo-individual input[type="checkbox"] {
+    /* border-width: 100px #737373 solid; */
+    transform: scale(1.3);
+    margin-right: 18px;
+}
+
+#todo-category {
+    color: #737373;
+    font-size: 12px;
+    margin-left: 37px;
+}
+
+@media screen and (max-width: 769px) {
+    #container {
+        width: 100%;
+    }
 }
